@@ -62,3 +62,7 @@
     opacity: 35%;
     cursor: pointer;
 }
+
+.bullets i.bianco {
+    opacity: 100;
+}
