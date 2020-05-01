@@ -76,8 +76,8 @@
 }
 
 .arrow-mobile-left {
-    height: 65px;
-    width: 46px;
+    height: 50px;
+    width: 35px;
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     border-radius: 3px;
@@ -91,8 +91,8 @@
 }
 
 .arrow-mobile-right {
-    height: 65px;
-    width: 46px;
+    height: 50px;
+    width: 35px;
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     border-radius: 3px;
@@ -103,6 +103,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.fa-angle-right:active, .fa-angle-left:active {
+    transform:scale(0.7);
+    transition: 0.4s ease;
 }
 
 .invisible {
