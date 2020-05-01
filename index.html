@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Slider's Images</title>
         <script src="https://kit.fontawesome.com/ccab3f3465.js" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +12,28 @@
     <body>
         <div class="container-slider">
             <div class="slider">
-                <div class="freccia-sinistra">
+                <div class="freccia-sinistra nomobile">
                     <i class="fas fa-3x fa-angle-left"></i>
                 </div>
                 <div class="im-bullets">
                     <div class="images">
-                        <img class="visible" id="prima" src="https://images.pexels.com/photos/3689772/pexels-photo-3689772.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
-                        <img src="https://images.pexels.com/photos/1665722/pexels-photo-1665722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
-                        <img src="https://images.pexels.com/photos/210271/pexels-photo-210271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
-                        <img src="https://images.pexels.com/photos/2694037/pexels-photo-2694037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
-                        <img src="https://images.pexels.com/photos/1896054/pexels-photo-1896054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                        <img class="visible fade" src="https://images.pexels.com/photos/3689772/pexels-photo-3689772.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                        <img class="fade" src="https://images.pexels.com/photos/1665722/pexels-photo-1665722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                        <img class="fade" src="https://images.pexels.com/photos/210271/pexels-photo-210271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                        <img class="fade" src="https://images.pexels.com/photos/2694037/pexels-photo-2694037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                        <img class="fade" src="https://images.pexels.com/photos/1896054/pexels-photo-1896054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
                     </div>
+                    <div class="arrow-mobile-left invisible">
+                        <div class="freccia-sinistra">
+                            <i class="fas fa-3x fa-angle-left"></i>
+                        </div>
+                    </div>
+                    <div class="arrow-mobile-right invisible">
+                        <div class="freccia-destra">
+                            <i class="fas fa-3x fa-angle-right"></i>
+                        </div>
+                    </div>
+
                     <div class="bullets">
                         <i class="fas fa-circle bianco"></i>
                         <i class="fas fa-circle"></i>
@@ -31,7 +42,7 @@
                         <i class="fas fa-circle"></i>
                     </div>
                 </div>
-                <div class="freccia-destra">
+                <div class="freccia-destra nomobile">
                     <i class="fas fa-3x fa-angle-right"></i>
                 </div>
             </div>
