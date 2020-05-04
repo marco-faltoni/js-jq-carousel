@@ -105,13 +105,12 @@
     align-items: center;
 }
 
-.fa-angle-right:active, .fa-angle-left:active {
+.fa-angle-right:active, .fa-angle-left:active, .fa-pause:active, .fa-play:active {
     transform:scale(0.7);
     transition: 0.4s ease;
 }
 
 .background {
-    cursor: pointer;
     position: absolute;
     top: 15px;
     right: 25px;
@@ -125,16 +124,18 @@
 }
 
 .fa-pause, .fa-play {
+    cursor: pointer;
     color: white;
     font-size: 20px;
-}
-
-.fa-play {
     display: none;
 }
 
 .invisible {
     display: none;
+}
+
+.visible {
+    display: block;
 }
 
 
