@@ -110,6 +110,29 @@
     transition: 0.4s ease;
 }
 
+.background {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 33px;
+    width: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.fa-pause, .fa-play {
+    color: white;
+    font-size: 20px;
+}
+
+.fa-play {
+    display: none;
+}
+
 .invisible {
     display: none;
 }
