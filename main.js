@@ -87,12 +87,13 @@ showSlides();
 var timeout;
 
 function showSlides() {
-  var i;
   var slides = $('.images img');
   var bullets = $('.bullets .fa-circle');
   slides.removeClass('visible');
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
+  if (slideIndex > slides.length) {
+    slideIndex = 1
+  }
   bullets.removeClass('bianco');
   slides.eq(slideIndex-1).addClass('visible');
   bullets.eq(slideIndex-1).addClass('bianco');
