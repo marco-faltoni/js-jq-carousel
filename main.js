@@ -97,7 +97,7 @@ function showSlides() {
   bullets.removeClass('bianco');
   slides.eq(slideIndex-1).addClass('visible');
   bullets.eq(slideIndex-1).addClass('bianco');
-  timeout = setTimeout(showSlides, 3000); // Change image every 2 seconds
+  timeout = setTimeout(showSlides, 3000); // Change image every 3 seconds
 };
 
 $('.fa-pause').click(function(){
